@@ -1,0 +1,111 @@
+.navbar-toggle {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    width: 100%;
+    float: none;
+    margin-right: 0;
+}
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    list-style: none;
+    text-align: center;}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url(../images/background.png);
+  background-size: cover;
+  background-position:center;
+  font-family: sans-serif;
+}
+
+
+.loginbox{
+  width: 400px;
+  min-height: 200px;
+  left: 22%;
+  position: relative;
+  background: #fff;
+  color: #000;
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+
+
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size:22px;
+}
+
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#price{
+  width: 50%;
+  display: inline;
+}
+#ServicePrice{
+  display: block;
+  margin-bottom: .5rem;
+}
+
+
+
+
+.loginbox button{
+  width: 100%;
+  border: none;
+  outline:none;
+  height: 40px;
+  background: #7367F0;
+  color:#fff;
+  font-size: 18px;
+  border-radius: 20px;
+  margin: 10px 0px 10px 0px;
+}
+
+
+.home-button{
+  margin-top: 50px;
+}
+.alert-box.info {
+    background-color: #a0d3e8;
+    border-color: #74bfdd;
+    color: #4f4f4f;
+}
+.alert-box.round {
+    left: 28%;
+    border-radius: 100px;
+}
+.alert-box {
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    font-weight: normal;
+    margin-bottom: 1.25rem;
+    position: relative;
+    padding: 0.875rem 1.5rem 0.875rem 0.875rem;
+    font-size: 0.8125rem;
+    transition: opacity 300ms ease-out;
+  }
