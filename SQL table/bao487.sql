@@ -7,6 +7,8 @@
 -- Last modification date: 2020-10-04 21:58:36.612
 
 -- foreign keys
+CREATE DATABASE testDatabase;
+USE testDatabase;
 ALTER TABLE Users
     DROP FOREIGN KEY Employee_Users;
 
